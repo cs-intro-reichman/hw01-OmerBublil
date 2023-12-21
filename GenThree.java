@@ -9,10 +9,10 @@ public class GenThree {
         int min = Math.min (a, b);
         int max = Math.max (a, b);
         int range = (max - min);
-        int integer1 = ((int) (Math.random() * range)) + min;
-        int integer2 = ((int) (Math.random() * range)) + min;
-        int integer3 = ((int) (Math.random() * range)) + min;
-        int mingeneratednum = Math.min ( (Math.min(integer1, integer2)) , integer3     );
+        int integer1 = (int) ((Math.random() * range)) + min;
+        int integer2 = (int) ((Math.random() * range)) + min;
+        int integer3 = (int) ((Math.random() * range)) + min;
+        int mingeneratednum = Math.min(integer3,Math.min(integer1,integer2));
         System.out.println (integer1);
         System.out.println (integer2);
         System.out.println (integer3);
