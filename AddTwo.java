@@ -2,6 +2,7 @@
  * Adds two given integers and prints the result in a fancy way.
  */
 public class AddTwo {
+	// start the main method
 	public static void main(String[] args) {
 		// Put your code here
 				// Put your code here	
