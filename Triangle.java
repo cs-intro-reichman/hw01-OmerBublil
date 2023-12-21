@@ -11,6 +11,6 @@ public class Triangle {
         int c = Integer.parseInt (args [2]);
         boolean x;
         x = ((a + b) > c && (a + c) > b && (b + c) > a );
-        System.out.println( a + ", " + b + ", " + c + ":" + x);
+        System.out.println( a + ", " + b + ", " + c + ": " + x);
 	}
 }
